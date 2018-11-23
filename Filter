@@ -1,8 +1,7 @@
 function shortWords(array) {
- return array.filter(function(word) {
-   return word.length < 5;
- }); 
+  return array.filter(word =>word.length <5);
 }
+
 /* From here down, you are not expected to 
    understand.... for now :)  
    
